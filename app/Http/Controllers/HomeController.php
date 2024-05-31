@@ -15,7 +15,7 @@ class HomeController extends Controller{
      * @return View
      */
 	function index(){
-		return view("welcome");
+		return redirect()->route("event");
 	}
 	
 }
